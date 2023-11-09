@@ -13,6 +13,8 @@ This free and comprehensive refinance calculator can help you calculate monthly 
 
 This free and comprehensive refinance calculator can help you calculate monthly payments, amortization, total purchase price, and more.
 
+[Refinance Calculator Homepage](https://www.calculator.io/refinance-calculator/ "Refinance Calculator Homepage")
+
 __Shortcode__
 
 Use the Refinance Calculator shortcode:
