@@ -9,41 +9,29 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 This free and comprehensive refinance calculator can help you calculate monthly payments, amortization, total purchase price, and more.
 
-== Description ==
-
-This free and comprehensive refinance calculator can help you calculate monthly payments, amortization, total purchase price, and more.
-
 [https://www.calculator.io/refinance-calculator/](https://www.calculator.io/refinance-calculator/)
 
-__Refinance Calculator Shortcode__
+== Usage ==
+
+Add the Refinance Calculator shortcode to your page, post or sidebar:
 
 `[ci_refinance_calculator]`
 
-== Installation ==
+Add the following code to your template where you would like the Refinance Calculator to appear:
 
-1. Upload the /ci_refinance_calculator/ folder to the /wp-content/plugins/ directory.
-2. Activate the [Refinance Calculator](https://www.calculator.io/refinance-calculator/ "Refinance Calculator Homepage") plugin through the "Plugins" menu in WordPress.
-
-== Refinance Calculator Usage ==
-
-* Add the shortcode `[ci_refinance_calculator]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_refinance_calculator(); ?>` to your template where you would like the Refinance Calculator to appear.
+`<?php display_ci_refinance_calculator(); ?>`
 
 == Screenshots ==
 
 1. The Refinance Calculator Input Form.
 2. The Refinance Calculator Calculation Results.
 
-== Libraries used in Refinance Calculator ==
+== Installation ==
 
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
+1. Upload the Refinance Calculator /ci_refinance_calculator/ folder to the /wp-content/plugins/ directory.
+2. Activate the Refinance Calculator plugin through the "Plugins" menu in WordPress.
 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
+* Initial release of Refinance Calculator
