@@ -1,6 +1,6 @@
 === Refinance Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: refinance calculator, loan refinancing analysis, monthly payment calculation, amortization in refinancing, total purchase price estimation, loan term revision, interest rate adjustment, debt restructuring, refinancing for better rates, mortgage and auto loan refinancing
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
