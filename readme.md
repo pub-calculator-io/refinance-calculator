@@ -1,4 +1,4 @@
-# Refinance Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Refinance Calculator Widget for WordPress
 
 This free and comprehensive refinance calculator can help you calculate monthly payments, amortization, total purchase price, and more.
 
