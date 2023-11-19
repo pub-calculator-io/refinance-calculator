@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Refinance Calculator by www.calculator.io
+Plugin Name: CI Refinance calculator
 Plugin URI: https://www.calculator.io/refinance-calculator/
 Description: This free and comprehensive refinance calculator can help you calculate monthly payments, amortization, total purchase price, and more.
 Version: 1.0.0
