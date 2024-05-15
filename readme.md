@@ -3,7 +3,6 @@
 This free and comprehensive refinance calculator can help you calculate monthly payments, amortization, total purchase price, and more.
 
 ![Refinance Calculator Input Form](/assets/images/screenshot-1.png "Refinance Calculator Input Form")
-![Refinance Calculator Calculation Results](/assets/images/screenshot-2.png "Refinance Calculator Calculation Results")
 
 ## Installation
 

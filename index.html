@@ -160,13 +160,15 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -181,8 +183,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<div class="result-table__wrapper">
 		<table class="result-table">
@@ -194,15 +195,15 @@
 			<tbody>
 				<tr>
 					<th>Savings for the new loan</th>
-					<td colspan="3" id="saving-month">$278.00/month</td>
+					<td colspan="3" id="saving-month" class="animate">$278.00/month</td>
 				</tr>
 				<tr>
 					<th>lifetime savings for the new loan</th>
-					<td colspan="3" id="lifetime-saving">$83,400.00</td>
+					<td colspan="3" id="lifetime-saving" class="animate">$83,400.00</td>
 				</tr>
 				<tr>
 					<th>upfront cost</th>
-					<td colspan="3" id="upfront-cost">$6,583.26</td>
+					<td colspan="3" id="upfront-cost" class="animate">$6,583.26</td>
 				</tr>
 				<tr>
 					<th class="dark indigo"></th>
@@ -210,37 +211,37 @@
 					<th class="dark indigo">NEW LOAN</th>
 					<th class="dark indigo">DIFFERENCE</th>
 				</tr>
-				<tr>
+				<tr class="animate">
 					<th>Principal/Loan Amount</th>
 					<td id="original-remaining-amount">$279,163.18</td>
 					<td id="new-remaining-amount">$273,579.92</td>
 					<td id="amount-diff">$-5,583.26</td>
 				</tr>
-				<tr>
+				<tr class="animate">
 					<th>Length</th>
 					<td id="remaining-months">300 months</td>
 					<td id="new-loan-months">300 months</td>
 					<td id="months-diff">0 months</td>
 				</tr>
-				<tr>
+				<tr class="animate">
 					<th>Interest Rate</th>
 					<td id="original-interest">6%</td>
 					<td id="new-interest">4.5%</td>
 					<td id="interest-diff">1.5%</td>
 				</tr>
-				<tr>
+				<tr class="animate">
 					<th>Monthly Pay</th>
 					<td id="origin-monthly-payment">$1,798.65</td>
 					<td id="new-monthly-payment">$1,520.65</td>
 					<td id="monthly-payment-diff">$-278.00</td>
 				</tr>
-				<tr>
+				<tr class="animate">
 					<th>Total Payments</th>
 					<td id="total-payment">$539,595.00</td>
 					<td id="new-total-payment">$456,195.00</td>
 					<td id="total-payment-diff">$-83,400.00</td>
 				</tr>
-				<tr>
+				<tr class="animate">
 					<th>Total Interest</th>
 					<td id="total-interest">$260,431.82</td>
 					<td id="new-total-interest">$182,615.08</td>
@@ -249,28 +250,28 @@
 				<tr>
 					<th>Points Equivalent To</th>
 					<td></td>
-					<td id="points-cost">$5,583.26</td>
+					<td id="points-cost" class="animate">$5,583.26</td>
 					<td></td>
 				</tr>
 				<tr>
 					<th>Cost + Points (Upfront)</th>
 					<td></td>
-					<td colspan="2" id="points-with-cost">$6,583.26</td>
+					<td colspan="2" id="points-with-cost" class="animate">$6,583.26</td>
 				</tr>
 				<tr class="hidden" id="cash-out-info">
 					<th>Cash Out</th>
 					<td></td>
-					<td colspan="2" id="cash-out-val">NA</td>
+					<td colspan="2" id="cash-out-val" class="animate">NA</td>
 				</tr>
 				<tr class="hidden" id="take-home-amount-info">
 					<th>Take Home Amount After Cost/Point</th>
 					<td></td>
-					<td colspan="2" id="take-home-amount-val">NA</td>
+					<td colspan="2" id="take-home-amount-val" class="animate">NA</td>
 				</tr>
 				<tr id="time-recovery">
 					<th>Time to Recover Cost/Point</th>
 					<td></td>
-					<td colspan="2" id="recovery-time-val">23.68 months</td>
+					<td colspan="2" id="recovery-time-val" class="animate">23.68 months</td>
 				</tr>
 			</tbody>
 		</table>
